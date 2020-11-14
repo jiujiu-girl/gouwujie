@@ -4,7 +4,7 @@ root = true
 charset = utf-8
 indent_style = space
 indent_size = 2
-#设置换行问题，跟系统有关
+#设置换行问题，跟操作系统有关
 #end_of_line=lf
 insert_final_newline = true
 #删除尾随空格
