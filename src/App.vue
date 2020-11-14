@@ -1,10 +1,10 @@
 <template>
-  <div id="nav">
-    khhug
+  <div>
+    kfsdkjsml
   </div>
   <router-view/>
 </template>
 
 <style>
-
+  @import "assets/css/base.css";
 </style>
