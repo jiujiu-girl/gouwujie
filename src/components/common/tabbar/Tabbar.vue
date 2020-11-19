@@ -2,7 +2,7 @@
   <div>
     <div id="tabbar">
       <!--如果没有设置active-color，则会使用组件Tab-bar-item中default的值-->
-      <TabBarItem path="/home" active-color="red">
+      <TabBarItem path="/home" active-color="#ff5777">
         <template v-slot:slot-img>
           <img src="@/assets/img/tabbar/Home.svg" alt="">
         </template>
@@ -13,7 +13,7 @@
           <div>首页</div>
         </template>
       </TabBarItem>
-      <TabBarItem path="/category">
+      <TabBarItem path="/category" active-color="#ff5777">
         <template v-slot:slot-img>
           <img src="@/assets/img/tabbar/Category.svg" alt="">
         </template>
@@ -24,7 +24,7 @@
           <div>分类</div>
         </template>
       </TabBarItem>
-      <TabBarItem path="/cart">
+      <TabBarItem path="/cart" active-color="#ff5777">
         <template v-slot:slot-img>
           <img src="@/assets/img/tabbar/shop-cart.svg" alt="">
         </template>
@@ -35,7 +35,7 @@
           <div>购物车</div>
         </template>
       </TabBarItem>
-      <TabBarItem path="/profile">
+      <TabBarItem path="/profile" active-color="#ff5777">
         <template v-slot:slot-img>
           <img src="@/assets/img/tabbar/Profile.svg" alt="">
         </template>
@@ -70,5 +70,6 @@
     justify-content: space-around;
     background: #f6f6f6;
     box-shadow: 0 -1px 1px rgba(100,100,100,.1);
+    font-size: 10px;
   }
 </style>

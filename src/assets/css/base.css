@@ -8,7 +8,7 @@
   /*color:var(--color-text)*/
 
   --high-lighht:#ff5777;
-  --high-tint:#ff8198;/*整体背景颜色，导航位置的颜色*/
+  --color-tint:#ff8198;/*整体背景颜色，导航位置的颜色*/
   --color-background:#fff;
   --front-size:14px;
   --line-height:1.5;

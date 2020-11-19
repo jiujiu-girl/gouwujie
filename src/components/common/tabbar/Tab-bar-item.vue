@@ -19,7 +19,8 @@
     },
     computed:{
       isActived(){
-        return this.$route.path===this.path
+        // return this.$route.path==this.path
+        return this.$route.path.indexOf(this.path)!==-1
       },
       activeStyle(){
         return this.isActived?{color:this.activeColor}:{}
